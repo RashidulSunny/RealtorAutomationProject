@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="143.755" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/test-classes:/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/classes:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/mdrashidulsunny/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/mdrashidulsunny/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/mdrashidulsunny/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mdrashidulsunny/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/mdrashidulsunny/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.3/webdrivermanager-5.0.3.jar:/Users/mdrashidulsunny/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/mdrashidulsunny/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/mdrashidulsunny/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java/3.2.12/docker-java-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-core/3.2.12/docker-java-core-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/mdrashidulsunny/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/mdrashidulsunny/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/mdrashidulsunny/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.12/docker-java-transport-httpclient5-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/mdrashidulsunny/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/mdrashidulsunny/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mdrashidulsunny/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/mdrashidulsunny/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/mdrashidulsunny/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-testng/2.16.1/allure-testng-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-java-commons/2.16.1/allure-java-commons-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-model/2.16.1/allure-model-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/mdrashidulsunny/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-test-filter/2.16.1/allure-test-filter-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar:/Users/mdrashidulsunny/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mdrashidulsunny/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/mdrashidulsunny/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mdrashidulsunny/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/mdrashidulsunny/.m2/repository/net/masterthought/cucumber-reporting/5.6.1/cucumber-reporting-5.6.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/mdrashidulsunny/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/mdrashidulsunny/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/mdrashidulsunny/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/mdrashidulsunny/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/mdrashidulsunny/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/mdrashidulsunny/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/mdrashidulsunny/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/mdrashidulsunny/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire/surefirebooter5160128003194111844.jar /Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire 2022-01-06T19-37-48_335-jvmRun1 surefire1665439558413870615tmp surefire_06524541767322873599tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/test-classes:/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/classes:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/mdrashidulsunny/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/mdrashidulsunny/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/mdrashidulsunny/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mdrashidulsunny/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/mdrashidulsunny/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.3/webdrivermanager-5.0.3.jar:/Users/mdrashidulsunny/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/mdrashidulsunny/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/mdrashidulsunny/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java/3.2.12/docker-java-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-core/3.2.12/docker-java-core-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/mdrashidulsunny/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/mdrashidulsunny/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/mdrashidulsunny/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.12/docker-java-transport-httpclient5-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/mdrashidulsunny/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/mdrashidulsunny/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mdrashidulsunny/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/mdrashidulsunny/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/mdrashidulsunny/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-testng/2.16.1/allure-testng-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-java-commons/2.16.1/allure-java-commons-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-model/2.16.1/allure-model-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/mdrashidulsunny/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-test-filter/2.16.1/allure-test-filter-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar:/Users/mdrashidulsunny/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mdrashidulsunny/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/mdrashidulsunny/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mdrashidulsunny/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/mdrashidulsunny/.m2/repository/net/masterthought/cucumber-reporting/5.6.1/cucumber-reporting-5.6.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/mdrashidulsunny/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/mdrashidulsunny/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/mdrashidulsunny/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/mdrashidulsunny/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/mdrashidulsunny/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/mdrashidulsunny/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/mdrashidulsunny/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/mdrashidulsunny/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mdrashidulsunny"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire/surefirebooter5160128003194111844.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="mdrashidulsunny"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/mdrashidulsunny/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/mdrashidulsunny/.cache/selenium/geckodriver/mac64/0.30.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mdrashidulsunny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Search new home for buy in Hicksville, NY" classname="Buy Functionality" time="32.527">
+    <system-out><![CDATA[
+Scenario: Search new home for buy in Hicksville, NY                              &amp#27;[90m# src/test/resources/Features/buy.feature:4&amp#27;[0m
+19:37:57.990 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching home for buy&amp#27;[0m              &amp#27;[90m# step_definitions.BuySteps.navigateToHomePageForBuy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to buy page&amp#27;[0m                                                  &amp#27;[90m# step_definitions.BuySteps.navigateToBuyPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser type address "&amp#27;[0m&amp#27;[32m&amp#27;[1mHicksville,NY&amp#27;[0m&amp#27;[32m" inside search box and click search icon&amp#27;[0m &amp#27;[90m# step_definitions.BuySteps.typeSearchBoxAndClickSearchTab(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see all  home for buy in Hicksville, NY&amp#27;[0m                          &amp#27;[90m# step_definitions.BuySteps.userIsNavigatedToNewConstructionBuyHomePage()&amp#27;[0m
+19:38:22.368 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1641515874882	geckodriver	INFO	Listening on 127.0.0.1:49293
+1641515875166	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54381" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileB1Nvn0"
+1641515875648	Marionette	INFO	Marionette enabled
+2022-01-06 19:37:56.530 firefox-bin[2963:92096] Warning: Expected min height of view: (<NSButton: 0x1213fc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:37:56.531 firefox-bin[2963:92096] Warning: Expected min height of view: (<NSButton: 0x113322c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:37:56.531 firefox-bin[2963:92096] Warning: Expected min height of view: (<NSButton: 0x127724000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:37:56.532 firefox-bin[2963:92096] Warning: Expected min height of view: (<NSButton: 0x127729000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:37:56.533 firefox-bin[2963:92096] Warning: Expected min height of view: (<NSButton: 0x127729c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:37:56.533 firefox-bin[2963:92096] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x127722800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:37:56.534 firefox-bin[2963:92096] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12052d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileB1Nvn0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54381/devtools/browser/574d550c-0c1c-4330-928f-b47fc610d197
+1641515877803	Marionette	INFO	Listening on port 51564
+1641515877851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:37:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2182 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 5404 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641515901642	Marionette	INFO	Stopped listening on port 51564
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Find a realtor agent to sell a property" classname="Find Realtor Agent Functionality" time="13.661">
+    <system-out><![CDATA[
+Scenario: Find a realtor agent to sell a property                                                               &amp#27;[90m# src/test/resources/Features/findRealtor.feature:4&amp#27;[0m
+19:38:24.633 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching a realtor agent for sell a property&amp#27;[0m                      &amp#27;[90m# step_definitions.FindRealtorSteps.navigateToHomePageForFindRealtor()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to real estate agent page&amp#27;[0m                                                                   &amp#27;[90m# step_definitions.FindRealtorSteps.navigateToFindRealtorAgentPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser type home address "&amp#27;[0m&amp#27;[32m&amp#27;[1m7104 162nd St Fresh Meadows NY 11365 &amp#27;[0m&amp#27;[32m" inside search box and click search button&amp#27;[0m &amp#27;[90m# step_definitions.FindRealtorSteps.typeSearchAndClickIcon(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see real estate agent&amp#27;[0m                                                                           &amp#27;[90m# step_definitions.FindRealtorSteps.validateRealtorAgent()&amp#27;[0m
+19:38:36.035 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515902409	geckodriver	INFO	Listening on 127.0.0.1:52984
+1641515902440	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51638" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileYOuMs4"
+1641515902806	Marionette	INFO	Marionette enabled
+2022-01-06 19:38:23.426 firefox-bin[2972:92654] Warning: Expected min height of view: (<NSButton: 0x12b8db000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:23.427 firefox-bin[2972:92654] Warning: Expected min height of view: (<NSButton: 0x12bb11800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:23.428 firefox-bin[2972:92654] Warning: Expected min height of view: (<NSButton: 0x12bb17400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:23.428 firefox-bin[2972:92654] Warning: Expected min height of view: (<NSButton: 0x12bb16000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:23.429 firefox-bin[2972:92654] Warning: Expected min height of view: (<NSButton: 0x12bb11c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:23.429 firefox-bin[2972:92654] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12bb12800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:23.430 firefox-bin[2972:92654] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11cb05800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileYOuMs4/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:51638/devtools/browser/2d117f19-e511-4efe-8dff-b52abbf773fc
+1641515904575	Marionette	INFO	Listening on port 51884
+1641515904600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:38:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7384 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 5892 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sellers.rdc.moveaws.com/_next/static/chunks/40f3e9f47154ec86ebdd9db6dc90dacd267de26d.e74f89122e7a718c47ee.js, line 1: unreachable code after return statement
+JavaScript warning: https://sellers.rdc.moveaws.com/_next/static/chunks/40f3e9f47154ec86ebdd9db6dc90dacd267de26d.e74f89122e7a718c47ee.js, line 1: unreachable code after return statement
+JavaScript warning: https://sellers.rdc.moveaws.com/_next/static/chunks/40f3e9f47154ec86ebdd9db6dc90dacd267de26d.e74f89122e7a718c47ee.js, line 1: unreachable code after return statement
+1641515915378	Marionette	INFO	Stopped listening on port 51884
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is successful with valid credentials #1" classname="Test login functionalities" time="9.764">
+    <system-out><![CDATA[
+@positive_test
+Scenario: Check login is successful with valid credentials                             &amp#27;[90m# src/test/resources/Features/login.feature:7&amp#27;[0m
+19:38:38.292 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page and click on Login Link&amp#27;[0m                              &amp#27;[90m# step_definitions.LoginSteps.userIsOnTheLoginPageAndClickOnLoginLink()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters emailAddress "&amp#27;[0m&amp#27;[32m&amp#27;[1msunny09203019@gmail.com&amp#27;[0m&amp#27;[32m" and click on continue button&amp#27;[0m &amp#27;[90m# step_definitions.LoginSteps.userEntersEmailAddressAndClickOnContinueButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password "&amp#27;[0m&amp#27;[32m&amp#27;[1mTest123@123&amp#27;[0m&amp#27;[32m" and click on login button&amp#27;[0m                     &amp#27;[90m# step_definitions.LoginSteps.userEntersPasswordAndClickOnLoginButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to home page&amp#27;[0m                                                  &amp#27;[90m# step_definitions.LoginSteps.userIsNavigatedToHomePage()&amp#27;[0m
+19:38:45.809 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515916079	geckodriver	INFO	Listening on 127.0.0.1:59969
+1641515916109	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50447" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilesahcY2"
+1641515916467	Marionette	INFO	Marionette enabled
+2022-01-06 19:38:37.097 firefox-bin[2981:93120] Warning: Expected min height of view: (<NSButton: 0x11b82cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:37.098 firefox-bin[2981:93120] Warning: Expected min height of view: (<NSButton: 0x1215f1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:37.098 firefox-bin[2981:93120] Warning: Expected min height of view: (<NSButton: 0x1215ea400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:37.099 firefox-bin[2981:93120] Warning: Expected min height of view: (<NSButton: 0x1215ed800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:37.100 firefox-bin[2981:93120] Warning: Expected min height of view: (<NSButton: 0x1215f0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:37.101 firefox-bin[2981:93120] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1215ed000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:37.101 firefox-bin[2981:93120] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x119697400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilesahcY2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:50447/devtools/browser/7ce66eb6-c51f-4077-9ed2-997964ac2c79
+1641515918155	Marionette	INFO	Listening on port 52243
+1641515918268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:38:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 5677 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 602 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641515925161	Marionette	INFO	Stopped listening on port 52243
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is successful with valid credentials #2" classname="Test login functionalities" time="10.133">
+    <system-out><![CDATA[
+@positive_test @dataDriven_test
+Scenario Outline: Check login is successful with valid credentials                     &amp#27;[90m# src/test/resources/Features/login.feature:20&amp#27;[0m
+19:38:48.053 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page and click on Login Link&amp#27;[0m                              &amp#27;[90m# step_definitions.LoginSteps.userIsOnTheLoginPageAndClickOnLoginLink()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters emailAddress "&amp#27;[0m&amp#27;[32m&amp#27;[1msunny09203019@gmail.com&amp#27;[0m&amp#27;[32m" and click on continue button&amp#27;[0m &amp#27;[90m# step_definitions.LoginSteps.userEntersEmailAddressAndClickOnContinueButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password "&amp#27;[0m&amp#27;[32m&amp#27;[1mTest123@123&amp#27;[0m&amp#27;[32m" and click on login button&amp#27;[0m                     &amp#27;[90m# step_definitions.LoginSteps.userEntersPasswordAndClickOnLoginButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to home page&amp#27;[0m                                                  &amp#27;[90m# step_definitions.LoginSteps.userIsNavigatedToHomePage()&amp#27;[0m
+19:38:55.944 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515925837	geckodriver	INFO	Listening on 127.0.0.1:53772
+1641515925867	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62090" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile9nsuHz"
+1641515926233	Marionette	INFO	Marionette enabled
+2022-01-06 19:38:46.846 firefox-bin[2987:93493] Warning: Expected min height of view: (<NSButton: 0x123bf2400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:46.847 firefox-bin[2987:93493] Warning: Expected min height of view: (<NSButton: 0x12ab1c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:46.848 firefox-bin[2987:93493] Warning: Expected min height of view: (<NSButton: 0x12ab1b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:46.848 firefox-bin[2987:93493] Warning: Expected min height of view: (<NSButton: 0x10e926400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:46.849 firefox-bin[2987:93493] Warning: Expected min height of view: (<NSButton: 0x12ab1b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:46.850 firefox-bin[2987:93493] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12ab1bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:46.850 firefox-bin[2987:93493] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x123bea000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile9nsuHz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62090/devtools/browser/1b2ae894-26f1-4eb8-8485-24ea78eabd9e
+1641515927993	Marionette	INFO	Listening on port 52553
+1641515928024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:38:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 5475 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 4926 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641515935299	Marionette	INFO	Stopped listening on port 52553
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is unsuccessful with invalid password" classname="Test login functionalities" time="11.127">
+    <system-out><![CDATA[
+@negative_test
+Scenario: Check login is unsuccessful with invalid password                            &amp#27;[90m# src/test/resources/Features/login.feature:24&amp#27;[0m
+19:38:58.198 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page and click on Login Link&amp#27;[0m                              &amp#27;[90m# step_definitions.LoginSteps.userIsOnTheLoginPageAndClickOnLoginLink()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters emailAddress "&amp#27;[0m&amp#27;[32m&amp#27;[1msunny09203019@gmail.com&amp#27;[0m&amp#27;[32m" and click on continue button&amp#27;[0m &amp#27;[90m# step_definitions.LoginSteps.userEntersEmailAddressAndClickOnContinueButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password "&amp#27;[0m&amp#27;[32m&amp#27;[1mtest123&amp#27;[0m&amp#27;[32m" and click on login button&amp#27;[0m                         &amp#27;[90m# step_definitions.LoginSteps.userEntersPasswordAndClickOnLoginButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is failed to login&amp#27;[0m                                                         &amp#27;[90m# step_definitions.LoginSteps.validateUnsuccessfulLogin()&amp#27;[0m
+19:39:07.072 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515935969	geckodriver	INFO	Listening on 127.0.0.1:59985
+1641515935999	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53034" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilewb8Rz5"
+1641515936356	Marionette	INFO	Marionette enabled
+2022-01-06 19:38:56.987 firefox-bin[2993:93863] Warning: Expected min height of view: (<NSButton: 0x1167d3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:56.988 firefox-bin[2993:93863] Warning: Expected min height of view: (<NSButton: 0x1168e1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:56.989 firefox-bin[2993:93863] Warning: Expected min height of view: (<NSButton: 0x1168e8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:56.989 firefox-bin[2993:93863] Warning: Expected min height of view: (<NSButton: 0x1168e8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:56.990 firefox-bin[2993:93863] Warning: Expected min height of view: (<NSButton: 0x1168e4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:56.991 firefox-bin[2993:93863] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1168e6000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-06 19:38:56.991 firefox-bin[2993:93863] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11315c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilewb8Rz5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53034/devtools/browser/2635825c-718e-4013-a018-bdc743861185
+1641515938126	Marionette	INFO	Listening on port 52860
+1641515938172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:38:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6716 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2798 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641515946428	Marionette	INFO	Stopped listening on port 52860
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+]]></system-err>
+  </testcase>
+  <testcase name="Calculate monthly mortgage payment" classname="Mortgage Calculator &amp; Refinance Calculator" time="14.719">
+    <system-out><![CDATA[
+Scenario: Calculate monthly mortgage payment                               &amp#27;[90m# src/test/resources/Features/mortgage.feature:4&amp#27;[0m
+19:39:09.012 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching mortgage calculator&amp#27;[0m &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToRealtorHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to mortgage page&amp#27;[0m                                       &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToMortgageCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser can see the monthly mortgage payment upon entering the data&amp#27;[0m    &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.calculateMonthlyPayment(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | HomePrice | DownPayment | InterestRate | PropertyTax |
+    | 1000000   | 195000      | 4            | 1016        |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe monthly mortgage payment is "&amp#27;[0m&amp#27;[32m&amp#27;[1m$5,085&amp#27;[0m&amp#27;[32m"&amp#27;[0m                            &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.validateMonthlyMortgagePayment(java.lang.String)&amp#27;[0m
+19:39:21.795 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515947104	geckodriver	INFO	Listening on 127.0.0.1:58737
+1641515947135	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63551" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileg4AGCl"
+1641515947495	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileg4AGCl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:63551/devtools/browser/a2bff838-8c5f-4dcc-99b3-4712bec98f52
+1641515948957	Marionette	INFO	Listening on port 53187
+1641515948984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:39:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2286 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
+1641515961141	Marionette	INFO	Stopped listening on port 53187
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 714: Error: Connection closed before committing the transaction.
+]]></system-err>
+  </testcase>
+  <testcase name="Calculate new monthly payment after refinancing" classname="Mortgage Calculator &amp; Refinance Calculator" time="18.699">
+    <system-out><![CDATA[
+Scenario: Calculate new monthly payment after refinancing                   &amp#27;[90m# src/test/resources/Features/mortgage.feature:12&amp#27;[0m
+19:39:23.829 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching refinance calculator&amp#27;[0m &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to refinance page&amp#27;[0m                                       &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToRefinanceCalculatorPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser can see the new monthly payment upon entering the data&amp#27;[0m          &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.newMonthlyPayment(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | OriginalLoanAmount | OriginalLoanRate | CurrentBalance | NewLoanRate |
+    | 500000             | 4                | 305000         | 3.420       |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe new monthly payment after refinancing is "&amp#27;[0m&amp#27;[32m&amp#27;[1m1,056&amp#27;[0m&amp#27;[32m"&amp#27;[0m                 &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.validateNewMonthlyPayment(java.lang.String)&amp#27;[0m
+19:39:40.495 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515961821	geckodriver	INFO	Listening on 127.0.0.1:61744
+1641515961851	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56270" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilenE8R3F"
+1641515962216	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilenE8R3F/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:56270/devtools/browser/e248a43f-65ff-4249-ae76-22e18eab7d14
+1641515963736	Marionette	INFO	Listening on port 53494
+1641515963805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:39:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 3580 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
+JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
+1641515979862	Marionette	INFO	Stopped listening on port 53494
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="Search all rental home in Queens, NY" classname="Rental Functionality" time="14.192">
+    <system-out><![CDATA[
+Scenario: Search all rental home in Queens, NY                               &amp#27;[90m# src/test/resources/Features/rent.feature:4&amp#27;[0m
+19:39:42.444 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching home for rent&amp#27;[0m         &amp#27;[90m# step_definitions.RentSteps.navigateToHomePageForRent()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to rent page&amp#27;[0m                                             &amp#27;[90m# step_definitions.RentSteps.navigateToRentPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser type place "&amp#27;[0m&amp#27;[32m&amp#27;[1mQueens,NY&amp#27;[0m&amp#27;[32m" inside search box and click search button&amp#27;[0m &amp#27;[90m# step_definitions.RentSteps.typeOnSearchBoxAndClickSearchIcon(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see all home for rent in Queens, NY&amp#27;[0m                          &amp#27;[90m# step_definitions.RentSteps.userIsNavigatedToRentPage()&amp#27;[0m
+19:39:54.690 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515980523	geckodriver	INFO	Listening on 127.0.0.1:58675
+1641515980549	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64096" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile1A3nsl"
+1641515980899	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile1A3nsl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:64096/devtools/browser/2d08c6f0-d2b0-4ea4-906a-aaa3148d1581
+1641515982378	Marionette	INFO	Listening on port 53801
+1641515982420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:39:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 1265 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 3248 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6202 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641515994034	Marionette	INFO	Stopped listening on port 53801
+]]></system-err>
+  </testcase>
+  <testcase name="Searching House by zip code" classname="Searching Functionality" time="8.045">
+    <system-out><![CDATA[
+Scenario: Searching House by zip code                                          &amp#27;[90m# src/test/resources/Features/searching.feature:4&amp#27;[0m
+19:39:56.714 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in home page for searching house&amp#27;[0m                               &amp#27;[90m# step_definitions.SortingSteps.navigateToHomePageForSearch()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter zip code "&amp#27;[0m&amp#27;[32m&amp#27;[1m11365&amp#27;[0m&amp#27;[32m" on search text box and click on search icon&amp#27;[0m &amp#27;[90m# step_definitions.SortingSteps.clickOnSearchIcon(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see all newest listings home&amp#27;[0m                                   &amp#27;[90m# step_definitions.SortingSteps.validateFamilyHome()&amp#27;[0m
+19:40:02.736 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641515994709	geckodriver	INFO	Listening on 127.0.0.1:65419
+1641515994735	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50343" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilePP2IkW"
+1641515995091	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilePP2IkW/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:50343/devtools/browser/7a0f881e-d8ae-49a6-b7cc-f3eaa772f4a2
+1641515996606	Marionette	INFO	Listening on port 54144
+1641515996688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:39:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6116 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641516002044	Marionette	INFO	Stopped listening on port 54144
+]]></system-err>
+  </testcase>
+  <testcase name="Sorting Bed Room" classname="Searching Functionality" time="9.054">
+    <system-out><![CDATA[
+Scenario: Sorting Bed Room                                                     &amp#27;[90m# src/test/resources/Features/searching.feature:8&amp#27;[0m
+19:40:04.689 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in home page for searching house&amp#27;[0m                               &amp#27;[90m# step_definitions.SortingSteps.navigateToHomePageForSearch()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter zip code "&amp#27;[0m&amp#27;[32m&amp#27;[1m11423&amp#27;[0m&amp#27;[32m" on search text box and click on search icon&amp#27;[0m &amp#27;[90m# step_definitions.SortingSteps.clickOnSearchIcon(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on bed tab and select 3 bedroom&amp#27;[0m                               &amp#27;[90m# step_definitions.SortingSteps.clickOnBedTab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see home with 3 bedroom&amp#27;[0m                                        &amp#27;[90m# step_definitions.SortingSteps.validateThreeBedFamilyHome()&amp#27;[0m
+19:40:11.788 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[1641516002761	geckodriver	INFO	Listening on 127.0.0.1:61347
+1641516002816	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59206" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile8hJrRs"
+1641516003190	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile8hJrRs/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:59206/devtools/browser/de632006-6dff-488e-95b7-5269addce0b4
+1641516004608	Marionette	INFO	Listening on port 54445
+1641516004663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2022 7:40:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 376 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.realtor.com/assets/prod/1b180ec/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/prod/1b180ec/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/prod/1b180ec/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
+1641516011139	Marionette	INFO	Stopped listening on port 54445
+]]></system-err>
+  </testcase>
+</testsuite>

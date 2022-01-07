@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Realtor_Automation_Project</td>
+        <td>1</td>
+      <td>06 Jan 2022, 19:40</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">step_definitions.BuySteps.navigateToBuyPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="2744314000">2.744</td>
+              <td class="duration" data-value="2744314000">2.744</td>
+              <td class="duration" data-value="2744314000">2.744</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.BuySteps.navigateToHomePageForBuy()</td>
+              <td>1</td>
+              <td class="duration" data-value="19210066000">19.210</td>
+              <td class="duration" data-value="19210066000">19.210</td>
+              <td class="duration" data-value="19210066000">19.210</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.BuySteps.typeSearchBoxAndClickSearchTab(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="459302000">0.459</td>
+              <td class="duration" data-value="459302000">0.459</td>
+              <td class="duration" data-value="459302000">0.459</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.BuySteps.userIsNavigatedToNewConstructionBuyHomePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="1227177000">1.227</td>
+              <td class="duration" data-value="1227177000">1.227</td>
+              <td class="duration" data-value="1227177000">1.227</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FindRealtorSteps.navigateToFindRealtorAgentPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="3499559000">3.499</td>
+              <td class="duration" data-value="3499559000">3.499</td>
+              <td class="duration" data-value="3499559000">3.499</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FindRealtorSteps.navigateToHomePageForFindRealtor()</td>
+              <td>1</td>
+              <td class="duration" data-value="6687664000">6.687</td>
+              <td class="duration" data-value="6687664000">6.687</td>
+              <td class="duration" data-value="6687664000">6.687</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FindRealtorSteps.typeSearchAndClickIcon(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="535330000">0.535</td>
+              <td class="duration" data-value="535330000">0.535</td>
+              <td class="duration" data-value="535330000">0.535</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FindRealtorSteps.validateRealtorAgent()</td>
+              <td>1</td>
+              <td class="duration" data-value="18022000">0.018</td>
+              <td class="duration" data-value="18022000">0.018</td>
+              <td class="duration" data-value="18022000">0.018</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Hooks.closeBrowser()</td>
+              <td>10</td>
+              <td class="duration" data-value="667228000">0.667</td>
+              <td class="duration" data-value="667228000">0.730</td>
+              <td class="duration" data-value="6672280000">6.672</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Hooks.openBrowser()</td>
+              <td>10</td>
+              <td class="duration" data-value="2682921000">2.682</td>
+              <td class="duration" data-value="2682921000">8.014</td>
+              <td class="duration" data-value="26829210000">26.829</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.userEntersEmailAddressAndClickOnContinueButton(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="466737333">0.466</td>
+              <td class="duration" data-value="466737333">0.479</td>
+              <td class="duration" data-value="1400212000">1.400</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.userEntersPasswordAndClickOnLoginButton(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="1801558333">1.801</td>
+              <td class="duration" data-value="1801558333">2.055</td>
+              <td class="duration" data-value="5404675000">5.404</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.userIsNavigatedToHomePage()</td>
+              <td>2</td>
+              <td class="duration" data-value="51669500">0.051</td>
+              <td class="duration" data-value="51669500">0.082</td>
+              <td class="duration" data-value="103339000">0.103</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.userIsOnTheLoginPageAndClickOnLoginLink()</td>
+              <td>3</td>
+              <td class="duration" data-value="4530851000">4.530</td>
+              <td class="duration" data-value="4530851000">4.687</td>
+              <td class="duration" data-value="13592553000">13.592</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LoginSteps.validateUnsuccessfulLogin()</td>
+              <td>1</td>
+              <td class="duration" data-value="1814814000">1.814</td>
+              <td class="duration" data-value="1814814000">1.814</td>
+              <td class="duration" data-value="1814814000">1.814</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.calculateMonthlyPayment(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="944867000">0.944</td>
+              <td class="duration" data-value="944867000">0.944</td>
+              <td class="duration" data-value="944867000">0.944</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.navigateToHomePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="9892165000">9.892</td>
+              <td class="duration" data-value="9892165000">9.892</td>
+              <td class="duration" data-value="9892165000">9.892</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.navigateToMortgageCalculatorPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5916785000">5.916</td>
+              <td class="duration" data-value="5916785000">5.916</td>
+              <td class="duration" data-value="5916785000">5.916</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.navigateToRealtorHomePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5240384000">5.240</td>
+              <td class="duration" data-value="5240384000">5.240</td>
+              <td class="duration" data-value="5240384000">5.240</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.navigateToRefinanceCalculatorPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="5869653000">5.869</td>
+              <td class="duration" data-value="5869653000">5.869</td>
+              <td class="duration" data-value="5869653000">5.869</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.newMonthlyPayment(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="250120000">0.250</td>
+              <td class="duration" data-value="250120000">0.250</td>
+              <td class="duration" data-value="250120000">0.250</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.validateMonthlyMortgagePayment(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="20507000">0.020</td>
+              <td class="duration" data-value="20507000">0.020</td>
+              <td class="duration" data-value="20507000">0.020</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.MortgageAndRefinanceSteps.validateNewMonthlyPayment(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="17344000">0.017</td>
+              <td class="duration" data-value="17344000">0.017</td>
+              <td class="duration" data-value="17344000">0.017</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.RentSteps.navigateToHomePageForRent()</td>
+              <td>1</td>
+              <td class="duration" data-value="5489498000">5.489</td>
+              <td class="duration" data-value="5489498000">5.489</td>
+              <td class="duration" data-value="5489498000">5.489</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.RentSteps.navigateToRentPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="2377228000">2.377</td>
+              <td class="duration" data-value="2377228000">2.377</td>
+              <td class="duration" data-value="2377228000">2.377</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.RentSteps.typeOnSearchBoxAndClickSearchIcon(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="722662000">0.722</td>
+              <td class="duration" data-value="722662000">0.722</td>
+              <td class="duration" data-value="722662000">0.722</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.RentSteps.userIsNavigatedToRentPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="2981167000">2.981</td>
+              <td class="duration" data-value="2981167000">2.981</td>
+              <td class="duration" data-value="2981167000">2.981</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SortingSteps.clickOnBedTab()</td>
+              <td>1</td>
+              <td class="duration" data-value="1301840000">1.301</td>
+              <td class="duration" data-value="1301840000">1.301</td>
+              <td class="duration" data-value="1301840000">1.301</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SortingSteps.clickOnSearchIcon(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="335437000">0.335</td>
+              <td class="duration" data-value="335437000">0.348</td>
+              <td class="duration" data-value="670874000">0.670</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SortingSteps.navigateToHomePageForSearch()</td>
+              <td>2</td>
+              <td class="duration" data-value="4217450000">4.217</td>
+              <td class="duration" data-value="4217450000">4.559</td>
+              <td class="duration" data-value="8434900000">8.434</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SortingSteps.validateFamilyHome()</td>
+              <td>1</td>
+              <td class="duration" data-value="1128745000">1.128</td>
+              <td class="duration" data-value="1128745000">1.128</td>
+              <td class="duration" data-value="1128745000">1.128</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SortingSteps.validateThreeBedFamilyHome()</td>
+              <td>1</td>
+              <td class="duration" data-value="236657000">0.236</td>
+              <td class="duration" data-value="236657000">0.236</td>
+              <td class="duration" data-value="236657000">0.236</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>32</td>
+            <td>59</td>
+            <td class="duration">2.401</td>
+            <td class="duration">26.829</td>
+            <td class="duration">2:21.693</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
