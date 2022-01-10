@@ -23,7 +23,7 @@ public class ElementActions {
 
     }
     public WebElement getElements(){
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         //create an variable (element) which return type is WebElement and value declare null
         WebElement element = null;
