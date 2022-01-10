@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="148.412" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="161.922" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire/surefirebooter3706623932057404046.jar /Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire 2022-01-09T17-24-34_558-jvmRun1 surefire8644283343503522691tmp surefire_017616792613281316253tmp"/>
+    <property name="sun.java.command" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire/surefirebooter9009025487041896698.jar /Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire 2022-01-09T20-12-37_103-jvmRun1 surefire5215479915772925728tmp surefire_07465129375034167045tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/test-classes:/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/classes:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/mdrashidulsunny/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/mdrashidulsunny/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/mdrashidulsunny/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/mdrashidulsunny/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/mdrashidulsunny/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/mdrashidulsunny/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mdrashidulsunny/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/mdrashidulsunny/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/mdrashidulsunny/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.3/webdrivermanager-5.0.3.jar:/Users/mdrashidulsunny/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/mdrashidulsunny/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/mdrashidulsunny/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java/3.2.12/docker-java-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-core/3.2.12/docker-java-core-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/mdrashidulsunny/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/mdrashidulsunny/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/mdrashidulsunny/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.12/docker-java-transport-httpclient5-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/mdrashidulsunny/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/mdrashidulsunny/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/mdrashidulsunny/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mdrashidulsunny/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/mdrashidulsunny/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/mdrashidulsunny/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/mdrashidulsunny/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-testng/2.16.1/allure-testng-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-java-commons/2.16.1/allure-java-commons-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-model/2.16.1/allure-model-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/mdrashidulsunny/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mdrashidulsunny/.m2/repository/io/qameta/allure/allure-test-filter/2.16.1/allure-test-filter-2.16.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar:/Users/mdrashidulsunny/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mdrashidulsunny/.m2/repository/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0.jar:/Users/mdrashidulsunny/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mdrashidulsunny/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mdrashidulsunny/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/mdrashidulsunny/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mdrashidulsunny/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/mdrashidulsunny/.m2/repository/net/masterthought/cucumber-reporting/5.6.1/cucumber-reporting-5.6.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/mdrashidulsunny/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/mdrashidulsunny/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/mdrashidulsunny/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/mdrashidulsunny/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/mdrashidulsunny/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/mdrashidulsunny/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/mdrashidulsunny/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/mdrashidulsunny/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/mdrashidulsunny/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire/surefirebooter3706623932057404046.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mdrashidulsunny/Documents/QA_Tek_Automation_All/Realtor_Automation_Project/target/surefire/surefirebooter9009025487041896698.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
@@ -63,389 +63,1127 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="Search new home for buy in Hicksville, NY" classname="Buy Functionality" time="30.839">
+  <testcase name="Search new home for buy in Hicksville, NY" classname="Buy Functionality" time="25.038">
     <system-out><![CDATA[
 Scenario: Search new home for buy in Hicksville, NY                              &amp#27;[90m# src/test/resources/Features/buy.feature:4&amp#27;[0m
-17:24:43.839 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:12:47.342 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching home for buy&amp#27;[0m              &amp#27;[90m# step_definitions.BuySteps.navigateToHomePageForBuy()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to buy page&amp#27;[0m                                                  &amp#27;[90m# step_definitions.BuySteps.navigateToBuyPage()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser type address "&amp#27;[0m&amp#27;[32m&amp#27;[1mHicksville,NY&amp#27;[0m&amp#27;[32m" inside search box and click search icon&amp#27;[0m &amp#27;[90m# step_definitions.BuySteps.typeSearchBoxAndClickSearchTab(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see all  home for buy in Hicksville, NY&amp#27;[0m                          &amp#27;[90m# step_definitions.BuySteps.userIsNavigatedToNewConstructionBuyHomePage()&amp#27;[0m
-17:25:06.797 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:13:03.686 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+	at java.base/java.net.URL.<init>(URL.java:585)
+	... 72 more
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1641767080743	geckodriver	INFO	Listening on 127.0.0.1:51637
-1641767081123	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52827" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilef0z1Fc"
-1641767081594	Marionette	INFO	Marionette enabled
-2022-01-09 17:24:42.392 firefox-bin[1242:18374] Warning: Expected min height of view: (<NSButton: 0x11ae11400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:24:42.393 firefox-bin[1242:18374] Warning: Expected min height of view: (<NSButton: 0x120bfa400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:24:42.393 firefox-bin[1242:18374] Warning: Expected min height of view: (<NSButton: 0x120bfec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:24:42.394 firefox-bin[1242:18374] Warning: Expected min height of view: (<NSButton: 0x120bfc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:24:42.395 firefox-bin[1242:18374] Warning: Expected min height of view: (<NSButton: 0x120bfd000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:24:42.395 firefox-bin[1242:18374] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x120bfdc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:24:42.396 firefox-bin[1242:18374] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x110d53c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilef0z1Fc/search.json.mozlz4", (void 0)))
+1641777163538	geckodriver	INFO	Listening on 127.0.0.1:55946
+1641777163858	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58236" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileM1Ynne"
+1641777164383	Marionette	INFO	Marionette enabled
+2022-01-09 20:12:45.220 firefox-bin[3240:99615] Warning: Expected min height of view: (<NSButton: 0x119f76c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:12:45.221 firefox-bin[3240:99615] Warning: Expected min height of view: (<NSButton: 0x12124c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:12:45.222 firefox-bin[3240:99615] Warning: Expected min height of view: (<NSButton: 0x121251800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:12:45.223 firefox-bin[3240:99615] Warning: Expected min height of view: (<NSButton: 0x121252000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:12:45.223 firefox-bin[3240:99615] Warning: Expected min height of view: (<NSButton: 0x12124c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:12:45.224 firefox-bin[3240:99615] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x121251c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:12:45.224 firefox-bin[3240:99615] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118fbb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileM1Ynne/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:52827/devtools/browser/23bb083b-5af5-4e63-9b6f-2df07fca7244
-1641767083661	Marionette	INFO	Listening on port 49742
-1641767083707	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:24:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:58236/devtools/browser/a124acba-ae49-43fb-ab95-ea973b60b89d
+1641777167145	Marionette	INFO	Listening on port 62201
+1641777167196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:12:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 3859 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7326 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7745 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2613 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1641767105910	Marionette	INFO	Stopped listening on port 49742
+JavaScript error: , line 0: uncaught exception: undefined
+1641777183010	Marionette	INFO	Stopped listening on port 62201
 JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
 JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
 JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x390078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
-
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
-  <testcase name="Find a realtor agent to sell a property" classname="Find Realtor Agent Functionality" time="11.271">
+  <testcase name="Find a realtor agent to sell a property" classname="Find Realtor Agent Functionality" time="11.869">
     <system-out><![CDATA[
 Scenario: Find a realtor agent to sell a property                                                               &amp#27;[90m# src/test/resources/Features/findRealtor.feature:4&amp#27;[0m
-17:25:09.172 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:13:06.205 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching a realtor agent for sell a property&amp#27;[0m                      &amp#27;[90m# step_definitions.FindRealtorSteps.navigateToHomePageForFindRealtor()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to real estate agent page&amp#27;[0m                                                                   &amp#27;[90m# step_definitions.FindRealtorSteps.navigateToFindRealtorAgentPage()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser type home address "&amp#27;[0m&amp#27;[32m&amp#27;[1m7104 162nd St Fresh Meadows NY 11365 &amp#27;[0m&amp#27;[32m" inside search box and click search button&amp#27;[0m &amp#27;[90m# step_definitions.FindRealtorSteps.typeSearchAndClickIcon(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see real estate agent&amp#27;[0m                                                                           &amp#27;[90m# step_definitions.FindRealtorSteps.validateRealtorAgent()&amp#27;[0m
-17:25:18.080 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:13:15.563 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767106845	geckodriver	INFO	Listening on 127.0.0.1:64214
-1641767106876	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60647" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofiler7NlEC"
-1641767107234	Marionette	INFO	Marionette enabled
-2022-01-09 17:25:07.863 firefox-bin[1253:19042] Warning: Expected min height of view: (<NSButton: 0x1129f0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:07.864 firefox-bin[1253:19042] Warning: Expected min height of view: (<NSButton: 0x1143c6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:07.864 firefox-bin[1253:19042] Warning: Expected min height of view: (<NSButton: 0x1143c7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:07.865 firefox-bin[1253:19042] Warning: Expected min height of view: (<NSButton: 0x1143c2400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:07.866 firefox-bin[1253:19042] Warning: Expected min height of view: (<NSButton: 0x1143c3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:07.867 firefox-bin[1253:19042] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1143c4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:07.867 firefox-bin[1253:19042] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1118eb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofiler7NlEC/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777183728	geckodriver	INFO	Listening on 127.0.0.1:54538
+1641777183761	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52794" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileoClCzR"
+1641777184236	Marionette	INFO	Marionette enabled
+2022-01-09 20:13:04.949 firefox-bin[3250:100174] Warning: Expected min height of view: (<NSButton: 0x12dadb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:04.950 firefox-bin[3250:100174] Warning: Expected min height of view: (<NSButton: 0x12dbf1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:04.950 firefox-bin[3250:100174] Warning: Expected min height of view: (<NSButton: 0x12dbf0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:04.951 firefox-bin[3250:100174] Warning: Expected min height of view: (<NSButton: 0x12dbef800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:04.951 firefox-bin[3250:100174] Warning: Expected min height of view: (<NSButton: 0x12dbed800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:04.952 firefox-bin[3250:100174] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12dbec400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:04.953 firefox-bin[3250:100174] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1268d9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileoClCzR/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:60647/devtools/browser/c5639a37-cf15-4f6b-b190-d085b4eab908
-1641767109044	Marionette	INFO	Listening on port 50079
-1641767109143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:25:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:52794/devtools/browser/dc8d1a08-4c9c-4753-b412-ea7c135a1545
+1641777186129	Marionette	INFO	Listening on port 62524
+1641777186170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:13:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7519 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 5368 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2760 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7269 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://sellers.rdc.moveaws.com/_next/static/chunks/40f3e9f47154ec86ebdd9db6dc90dacd267de26d.e74f89122e7a718c47ee.js, line 1: unreachable code after return statement
 JavaScript warning: https://sellers.rdc.moveaws.com/_next/static/chunks/40f3e9f47154ec86ebdd9db6dc90dacd267de26d.e74f89122e7a718c47ee.js, line 1: unreachable code after return statement
 JavaScript warning: https://sellers.rdc.moveaws.com/_next/static/chunks/40f3e9f47154ec86ebdd9db6dc90dacd267de26d.e74f89122e7a718c47ee.js, line 1: unreachable code after return statement
-1641767117419	Marionette	INFO	Stopped listening on port 50079
+1641777194777	Marionette	INFO	Stopped listening on port 62524
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with valid credentials #1" classname="Test login functionalities" time="10.404">
+  <testcase name="Check login is successful with valid credentials #1" classname="Test login functionalities" time="11.431">
     <system-out><![CDATA[
 @positive_test
 Scenario: Check login is successful with valid credentials                             &amp#27;[90m# src/test/resources/Features/login.feature:7&amp#27;[0m
-17:25:20.357 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:13:18.079 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page and click on Login Link&amp#27;[0m                              &amp#27;[90m# step_definitions.LoginSteps.userIsOnTheLoginPageAndClickOnLoginLink()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters emailAddress "&amp#27;[0m&amp#27;[32m&amp#27;[1msunny09203019@gmail.com&amp#27;[0m&amp#27;[32m" and click on continue button&amp#27;[0m &amp#27;[90m# step_definitions.LoginSteps.userEntersEmailAddressAndClickOnContinueButton(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password "&amp#27;[0m&amp#27;[32m&amp#27;[1mTest123@123&amp#27;[0m&amp#27;[32m" and click on login button&amp#27;[0m                     &amp#27;[90m# step_definitions.LoginSteps.userEntersPasswordAndClickOnLoginButton(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to home page&amp#27;[0m                                                  &amp#27;[90m# step_definitions.LoginSteps.userIsNavigatedToHomePage()&amp#27;[0m
-17:25:28.494 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:13:27.006 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767118125	geckodriver	INFO	Listening on 127.0.0.1:49953
-1641767118158	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55020" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileZX76AL"
-1641767118515	Marionette	INFO	Marionette enabled
-2022-01-09 17:25:19.128 firefox-bin[1259:19460] Warning: Expected min height of view: (<NSButton: 0x11a3dc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:19.128 firefox-bin[1259:19460] Warning: Expected min height of view: (<NSButton: 0x1204ea400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:19.129 firefox-bin[1259:19460] Warning: Expected min height of view: (<NSButton: 0x1204e8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:19.130 firefox-bin[1259:19460] Warning: Expected min height of view: (<NSButton: 0x1204e7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:19.130 firefox-bin[1259:19460] Warning: Expected min height of view: (<NSButton: 0x1204ec800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:19.131 firefox-bin[1259:19460] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1204e9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:19.132 firefox-bin[1259:19460] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1185de400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileZX76AL/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777195614	geckodriver	INFO	Listening on 127.0.0.1:50976
+1641777195649	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56388" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileJKUEBH"
+1641777196104	Marionette	INFO	Marionette enabled
+2022-01-09 20:13:16.807 firefox-bin[3257:100695] Warning: Expected min height of view: (<NSButton: 0x124b36400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:16.807 firefox-bin[3257:100695] Warning: Expected min height of view: (<NSButton: 0x12bad1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:16.808 firefox-bin[3257:100695] Warning: Expected min height of view: (<NSButton: 0x12bad3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:16.809 firefox-bin[3257:100695] Warning: Expected min height of view: (<NSButton: 0x12bad0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:16.810 firefox-bin[3257:100695] Warning: Expected min height of view: (<NSButton: 0x12bad5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:16.810 firefox-bin[3257:100695] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12bad7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:16.811 firefox-bin[3257:100695] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x123958800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileJKUEBH/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:55020/devtools/browser/059e9f02-f902-4fba-83ea-a50576c2f86b
-1641767120274	Marionette	INFO	Listening on port 50425
-1641767120328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:25:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:56388/devtools/browser/4467a8aa-8fff-4e62-8879-909837badba8
+1641777197963	Marionette	INFO	Listening on port 62861
+1641777198047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:13:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6177 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7059 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1641767127844	Marionette	INFO	Stopped listening on port 50425
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2295 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 128 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641777206231	Marionette	INFO	Stopped listening on port 62861
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is successful with valid credentials #2" classname="Test login functionalities" time="10.291">
+  <testcase name="Check login is successful with valid credentials #2" classname="Test login functionalities" time="11.585">
     <system-out><![CDATA[
 @positive_test @dataDriven_test
 Scenario Outline: Check login is successful with valid credentials                     &amp#27;[90m# src/test/resources/Features/login.feature:20&amp#27;[0m
-17:25:30.942 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:13:29.705 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page and click on Login Link&amp#27;[0m                              &amp#27;[90m# step_definitions.LoginSteps.userIsOnTheLoginPageAndClickOnLoginLink()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters emailAddress "&amp#27;[0m&amp#27;[32m&amp#27;[1msunny09203019@gmail.com&amp#27;[0m&amp#27;[32m" and click on continue button&amp#27;[0m &amp#27;[90m# step_definitions.LoginSteps.userEntersEmailAddressAndClickOnContinueButton(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password "&amp#27;[0m&amp#27;[32m&amp#27;[1mTest123@123&amp#27;[0m&amp#27;[32m" and click on login button&amp#27;[0m                     &amp#27;[90m# step_definitions.LoginSteps.userEntersPasswordAndClickOnLoginButton(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to home page&amp#27;[0m                                                  &amp#27;[90m# step_definitions.LoginSteps.userIsNavigatedToHomePage()&amp#27;[0m
-17:25:38.786 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:13:38.592 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767128523	geckodriver	INFO	Listening on 127.0.0.1:54515
-1641767128655	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61086" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile1DbkNV"
-1641767129009	Marionette	INFO	Marionette enabled
-2022-01-09 17:25:29.656 firefox-bin[1266:19890] Warning: Expected min height of view: (<NSButton: 0x11efe9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:29.657 firefox-bin[1266:19890] Warning: Expected min height of view: (<NSButton: 0x1252c8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:29.657 firefox-bin[1266:19890] Warning: Expected min height of view: (<NSButton: 0x1252c5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:29.658 firefox-bin[1266:19890] Warning: Expected min height of view: (<NSButton: 0x1252c5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:29.659 firefox-bin[1266:19890] Warning: Expected min height of view: (<NSButton: 0x1252c1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:29.659 firefox-bin[1266:19890] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1252c4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:29.660 firefox-bin[1266:19890] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11ddf2c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile1DbkNV/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777207035	geckodriver	INFO	Listening on 127.0.0.1:50553
+1641777207170	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60508" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilehk4yZX"
+1641777207630	Marionette	INFO	Marionette enabled
+2022-01-09 20:13:28.321 firefox-bin[3263:101144] Warning: Expected min height of view: (<NSButton: 0x121083400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:28.321 firefox-bin[3263:101144] Warning: Expected min height of view: (<NSButton: 0x121727800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:28.322 firefox-bin[3263:101144] Warning: Expected min height of view: (<NSButton: 0x121722c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:28.323 firefox-bin[3263:101144] Warning: Expected min height of view: (<NSButton: 0x121725400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:28.324 firefox-bin[3263:101144] Warning: Expected min height of view: (<NSButton: 0x121720400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:28.325 firefox-bin[3263:101144] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x121726800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:28.325 firefox-bin[3263:101144] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11b20f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilehk4yZX/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:61086/devtools/browser/c7f1f712-0e26-49a9-8027-c15f6797b74b
-1641767130803	Marionette	INFO	Listening on port 50739
-1641767130915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:25:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:60508/devtools/browser/a6ff3e5e-c6e9-4c07-aacc-868eacf6edba
+1641777209568	Marionette	INFO	Listening on port 63164
+1641777209670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:13:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2788 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2174 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1641767138142	Marionette	INFO	Stopped listening on port 50739
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2398 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 3031 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641777217818	Marionette	INFO	Stopped listening on port 63164
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x6B0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5A0004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5A0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5A0004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5A0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
 ]]></system-err>
   </testcase>
-  <testcase name="Check login is unsuccessful with invalid password" classname="Test login functionalities" time="12.527">
+  <testcase name="Check login is unsuccessful with invalid password" classname="Test login functionalities" time="15.533">
     <system-out><![CDATA[
 @negative_test
 Scenario: Check login is unsuccessful with invalid password                            &amp#27;[90m# src/test/resources/Features/login.feature:24&amp#27;[0m
-17:25:41.035 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:13:41.078 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on the login page and click on Login Link&amp#27;[0m                              &amp#27;[90m# step_definitions.LoginSteps.userIsOnTheLoginPageAndClickOnLoginLink()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters emailAddress "&amp#27;[0m&amp#27;[32m&amp#27;[1msunny09203019@gmail.com&amp#27;[0m&amp#27;[32m" and click on continue button&amp#27;[0m &amp#27;[90m# step_definitions.LoginSteps.userEntersEmailAddressAndClickOnContinueButton(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password "&amp#27;[0m&amp#27;[32m&amp#27;[1mtest123&amp#27;[0m&amp#27;[32m" and click on login button&amp#27;[0m                         &amp#27;[90m# step_definitions.LoginSteps.userEntersPasswordAndClickOnLoginButton(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is failed to login&amp#27;[0m                                                         &amp#27;[90m# step_definitions.LoginSteps.validateUnsuccessfulLogin()&amp#27;[0m
-17:25:51.314 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:13:54.126 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767138813	geckodriver	INFO	Listening on 127.0.0.1:55727
-1641767138842	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57229" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilexzdVwz"
-1641767139216	Marionette	INFO	Marionette enabled
-2022-01-09 17:25:39.838 firefox-bin[1272:20317] Warning: Expected min height of view: (<NSButton: 0x11c113400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:39.839 firefox-bin[1272:20317] Warning: Expected min height of view: (<NSButton: 0x11e913c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:39.840 firefox-bin[1272:20317] Warning: Expected min height of view: (<NSButton: 0x11e90d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:39.840 firefox-bin[1272:20317] Warning: Expected min height of view: (<NSButton: 0x11e911c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:39.841 firefox-bin[1272:20317] Warning: Expected min height of view: (<NSButton: 0x10ed28800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:39.842 firefox-bin[1272:20317] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11e90f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2022-01-09 17:25:39.842 firefox-bin[1272:20317] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11bc07000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilexzdVwz/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777218624	geckodriver	INFO	Listening on 127.0.0.1:58492
+1641777218647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50582" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilet4p5ZO"
+1641777219072	Marionette	INFO	Marionette enabled
+2022-01-09 20:13:39.820 firefox-bin[3269:101597] Warning: Expected min height of view: (<NSButton: 0x11aac7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:39.820 firefox-bin[3269:101597] Warning: Expected min height of view: (<NSButton: 0x120cea000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:39.821 firefox-bin[3269:101597] Warning: Expected min height of view: (<NSButton: 0x120cea400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:39.822 firefox-bin[3269:101597] Warning: Expected min height of view: (<NSButton: 0x120cea800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:39.823 firefox-bin[3269:101597] Warning: Expected min height of view: (<NSButton: 0x120ce9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:39.823 firefox-bin[3269:101597] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x120cec800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:39.824 firefox-bin[3269:101597] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x110f5d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilet4p5ZO/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:57229/devtools/browser/63b9d40b-c248-42f7-966b-87cff0c6c1b7
-1641767140969	Marionette	INFO	Listening on port 51045
-1641767141007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:25:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:50582/devtools/browser/03bbed7e-2898-49cc-b326-87b729f49eb7
+1641777220993	Marionette	INFO	Listening on port 63498
+1641777221047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:13:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 4537 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1641767150682	Marionette	INFO	Stopped listening on port 51045
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 4260 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6640 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641777233428	Marionette	INFO	Stopped listening on port 63498
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 ]]></system-err>
   </testcase>
-  <testcase name="Calculate monthly mortgage payment" classname="Mortgage Calculator &amp; Refinance Calculator" time="25.95">
+  <testcase name="Calculate monthly mortgage payment" classname="Mortgage Calculator &amp; Refinance Calculator" time="15.719">
     <system-out><![CDATA[
 Scenario: Calculate monthly mortgage payment                               &amp#27;[90m# src/test/resources/Features/mortgage.feature:4&amp#27;[0m
-17:25:53.356 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:13:56.629 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching mortgage calculator&amp#27;[0m &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToRealtorHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to mortgage page&amp#27;[0m                                       &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToMortgageCalculatorPage()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser can see the monthly mortgage payment upon entering the data&amp#27;[0m    &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.calculateMonthlyPayment(io.cucumber.datatable.DataTable)&amp#27;[0m
     | HomePrice | DownPayment | InterestRate | PropertyTax |
     | 1000000   | 195000      | 4            | 1016        |
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe monthly mortgage payment is "&amp#27;[0m&amp#27;[32m&amp#27;[1m$5,085&amp#27;[0m&amp#27;[32m"&amp#27;[0m                            &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.validateMonthlyMortgagePayment(java.lang.String)&amp#27;[0m
-17:26:17.270 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:14:09.853 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767151349	geckodriver	INFO	Listening on 127.0.0.1:64737
-1641767151372	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58844" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileLso8Ej"
-1641767151738	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileLso8Ej/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777234172	geckodriver	INFO	Listening on 127.0.0.1:60143
+1641777234198	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52757" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileKVaRwG"
+1641777234633	Marionette	INFO	Marionette enabled
+2022-01-09 20:13:55.361 firefox-bin[3275:102120] Warning: Expected min height of view: (<NSButton: 0x1297ea000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:55.362 firefox-bin[3275:102120] Warning: Expected min height of view: (<NSButton: 0x129a16800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:55.363 firefox-bin[3275:102120] Warning: Expected min height of view: (<NSButton: 0x129a12400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:55.363 firefox-bin[3275:102120] Warning: Expected min height of view: (<NSButton: 0x129a14c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:55.364 firefox-bin[3275:102120] Warning: Expected min height of view: (<NSButton: 0x129a17400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:55.365 firefox-bin[3275:102120] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x129a16000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-09 20:13:55.365 firefox-bin[3275:102120] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12240f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileKVaRwG/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:58844/devtools/browser/b7f38339-9be9-43ff-8363-86d813d638b8
-1641767153267	Marionette	INFO	Listening on port 51349
-1641767153329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:25:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:52757/devtools/browser/d99a500d-aaeb-4e94-ae7c-ccdb0d8c6f72
+1641777236559	Marionette	INFO	Listening on port 63818
+1641777236599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:13:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 4790 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/5j4VCALLZSHxCC9Q4npotRbCr-J4MtXOxr4dICczkIM.js line 1 > eval line 4486 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6049 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
 JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
 JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
-1641767176604	Marionette	INFO	Stopped listening on port 51349
+1641777249022	Marionette	INFO	Stopped listening on port 63818
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-JavaScript error: resource://gre/modules/Sqlite.jsm, line 714: Error: Connection closed before committing the transaction.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
-  <testcase name="Calculate new monthly payment after refinancing" classname="Mortgage Calculator &amp; Refinance Calculator" time="11.349">
+  <testcase name="Calculate new monthly payment after refinancing" classname="Mortgage Calculator &amp; Refinance Calculator" time="13.017">
     <system-out><![CDATA[
 Scenario: Calculate new monthly payment after refinancing                   &amp#27;[90m# src/test/resources/Features/mortgage.feature:12&amp#27;[0m
-17:26:19.312 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:14:12.249 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching refinance calculator&amp#27;[0m &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to refinance page&amp#27;[0m                                       &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.navigateToRefinanceCalculatorPage()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser can see the new monthly payment upon entering the data&amp#27;[0m          &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.newMonthlyPayment(io.cucumber.datatable.DataTable)&amp#27;[0m
     | OriginalLoanAmount | OriginalLoanRate | CurrentBalance | NewLoanRate |
     | 500000             | 4                | 305000         | 3.420       |
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe new monthly payment after refinancing is "&amp#27;[0m&amp#27;[32m&amp#27;[1m1,056&amp#27;[0m&amp#27;[32m"&amp#27;[0m                 &amp#27;[90m# step_definitions.MortgageAndRefinanceSteps.validateNewMonthlyPayment(java.lang.String)&amp#27;[0m
-17:26:28.621 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:14:22.870 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767177297	geckodriver	INFO	Listening on 127.0.0.1:62237
-1641767177330	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54238" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilePMi8T8"
-1641767177688	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilePMi8T8/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777249888	geckodriver	INFO	Listening on 127.0.0.1:61737
+1641777250023	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62263" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile6L87Gf"
+1641777250501	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile6L87Gf/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:54238/devtools/browser/6dfb69e8-91a3-4935-805a-686b0b270f41
-1641767179186	Marionette	INFO	Listening on port 51671
-1641767179287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:26:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:62263/devtools/browser/3d2a817d-ae5d-448a-a700-13b6111b548a
+1641777252160	Marionette	INFO	Listening on port 64156
+1641777252216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:14:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2201 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 4503 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 4779 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
 JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
 JavaScript warning: https://static-mortgage.rdc.moveaws.com/_next/static/chunks/pages/_app-39e4992e16821dfb954d.js, line 1: unreachable code after return statement
-1641767187928	Marionette	INFO	Stopped listening on port 51671
-]]></system-err>
-  </testcase>
-  <testcase name="Search all rental home in Queens, NY" classname="Rental Functionality" time="14.412">
-    <system-out><![CDATA[
-Scenario: Search all rental home in Queens, NY                               &amp#27;[90m# src/test/resources/Features/rent.feature:4&amp#27;[0m
-17:26:30.662 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching home for rent&amp#27;[0m         &amp#27;[90m# step_definitions.RentSteps.navigateToHomePageForRent()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to rent page&amp#27;[0m                                             &amp#27;[90m# step_definitions.RentSteps.navigateToRentPage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser type place "&amp#27;[0m&amp#27;[32m&amp#27;[1mQueens,NY&amp#27;[0m&amp#27;[32m" inside search box and click search button&amp#27;[0m &amp#27;[90m# step_definitions.RentSteps.typeOnSearchBoxAndClickSearchIcon(java.lang.String)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see all home for rent in Queens, NY&amp#27;[0m                          &amp#27;[90m# step_definitions.RentSteps.userIsNavigatedToRentPage()&amp#27;[0m
-17:26:43.035 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
-]]></system-out>
-    <system-err><![CDATA[1641767188651	geckodriver	INFO	Listening on 127.0.0.1:65340
-1641767188678	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49164" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile7E9PM0"
-1641767189039	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile7E9PM0/search.json.mozlz4", (void 0)))
-console.error: BackgroundUpdate: 
-  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:49164/devtools/browser/2082daad-2875-49ac-8e7d-550bd8ca70a8
-1641767190543	Marionette	INFO	Listening on port 51981
-1641767190639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:26:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6493 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 6780 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
-JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
-1641767202344	Marionette	INFO	Stopped listening on port 51981
+1641777262075	Marionette	INFO	Stopped listening on port 64156
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
-  <testcase name="Searching House by zip code" classname="Searching Functionality" time="9.159">
+  <testcase name="Search all rental home in Queens, NY" classname="Rental Functionality" time="19.716">
+    <system-out><![CDATA[
+Scenario: Search all rental home in Queens, NY                               &amp#27;[90m# src/test/resources/Features/rent.feature:4&amp#27;[0m
+20:14:25.393 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in the realtor home page for searching home for rent&amp#27;[0m         &amp#27;[90m# step_definitions.RentSteps.navigateToHomePageForRent()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to rent page&amp#27;[0m                                             &amp#27;[90m# step_definitions.RentSteps.navigateToRentPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser type place "&amp#27;[0m&amp#27;[32m&amp#27;[1mQueens,NY&amp#27;[0m&amp#27;[32m" inside search box and click search button&amp#27;[0m &amp#27;[90m# step_definitions.RentSteps.typeOnSearchBoxAndClickSearchIcon(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see all home for rent in Queens, NY&amp#27;[0m                          &amp#27;[90m# step_definitions.RentSteps.userIsNavigatedToRentPage()&amp#27;[0m
+20:14:42.587 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777262903	geckodriver	INFO	Listening on 127.0.0.1:62087
+1641777262939	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65015" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileFR9YnC"
+1641777263413	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileFR9YnC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:65015/devtools/browser/06757877-80ad-40a7-aeb6-79f04f14fc4a
+1641777265326	Marionette	INFO	Listening on port 64466
+1641777265354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:14:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2851 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 3227 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/rentals-318e42b012e4faa990a0.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/8.5bdfd02d6a1999cde03f.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 5529 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/rentals/prod/90f7027/_next/static/chunks/pages/apartments-cedbbb22bfda68ad5c67.js, line 1: unreachable code after return statement
+JavaScript error: https://tagan.adlightning.com/realtor/b-7b120a5-49f1115a.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1641777281642	Marionette	INFO	Stopped listening on port 64466
+]]></system-err>
+  </testcase>
+  <testcase name="Searching House by zip code" classname="Searching Functionality" time="15.503">
     <system-out><![CDATA[
 Scenario: Searching House by zip code                                          &amp#27;[90m# src/test/resources/Features/searching.feature:4&amp#27;[0m
-17:26:45.069 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:14:45.317 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in home page for searching house&amp#27;[0m                               &amp#27;[90m# step_definitions.SortingSteps.navigateToHomePageForSearch()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter zip code "&amp#27;[0m&amp#27;[32m&amp#27;[1m11365&amp#27;[0m&amp#27;[32m" on search text box and click on search icon&amp#27;[0m &amp#27;[90m# step_definitions.SortingSteps.clickOnSearchIcon(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see all newest listings home&amp#27;[0m                                   &amp#27;[90m# step_definitions.SortingSteps.validateFamilyHome()&amp#27;[0m
-17:26:52.197 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:14:58.092 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767203062	geckodriver	INFO	Listening on 127.0.0.1:62007
-1641767203088	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62530" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilepGCFcE"
-1641767203436	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofilepGCFcE/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777282635	geckodriver	INFO	Listening on 127.0.0.1:55799
+1641777282670	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53137" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile0ZCzRT"
+1641777283239	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofile0ZCzRT/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:62530/devtools/browser/8fc75bf4-12c3-41a8-a402-133ec56357ab
-1641767204965	Marionette	INFO	Listening on port 52317
-1641767205045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:26:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:53137/devtools/browser/060ccef1-ae5c-4451-9a4f-6638dcd05af2
+1641777285212	Marionette	INFO	Listening on port 64849
+1641777285279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:14:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7564 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 5941 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1641767211495	Marionette	INFO	Stopped listening on port 52317
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 7172 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 2625 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641777295081	Marionette	INFO	Stopped listening on port 64849
+JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 ]]></system-err>
   </testcase>
-  <testcase name="Sorting Bed Room" classname="Searching Functionality" time="10.343">
+  <testcase name="Sorting Bed Room" classname="Searching Functionality" time="19.439">
     <system-out><![CDATA[
 Scenario: Sorting Bed Room                                                     &amp#27;[90m# src/test/resources/Features/searching.feature:8&amp#27;[0m
-17:26:54.129 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
+20:15:00.477 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - launch the browser&amp#27;[m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is in home page for searching house&amp#27;[0m                               &amp#27;[90m# step_definitions.SortingSteps.navigateToHomePageForSearch()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter zip code "&amp#27;[0m&amp#27;[32m&amp#27;[1m11423&amp#27;[0m&amp#27;[32m" on search text box and click on search icon&amp#27;[0m &amp#27;[90m# step_definitions.SortingSteps.clickOnSearchIcon(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on bed tab and select 3 bedroom&amp#27;[0m                               &amp#27;[90m# step_definitions.SortingSteps.clickOnBedTab()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser can see home with 3 bedroom&amp#27;[0m                                        &amp#27;[90m# step_definitions.SortingSteps.validateThreeBedFamilyHome()&amp#27;[0m
-17:27:02.540 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
+20:15:17.532 [main] &amp#27;[0mINFO  step_definitions.LoginSteps - Close the browser&amp#27;[m
 ]]></system-out>
-    <system-err><![CDATA[1641767212222	geckodriver	INFO	Listening on 127.0.0.1:57674
-1641767212247	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59889" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileyWiWUm"
-1641767212618	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileyWiWUm/search.json.mozlz4", (void 0)))
+    <system-err><![CDATA[java.net.MalformedURLException
+	at java.base/java.net.URL.<init>(URL.java:679)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at utilities.DriverFactory.lambda$new$0(DriverFactory.java:32)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utilities.DriverFactory.getDriver(DriverFactory.java:52)
+	at step_definitions.Hooks.openBrowser(Hooks.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NullPointerException
+1641777298123	geckodriver	INFO	Listening on 127.0.0.1:56158
+1641777298150	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55125" "-foreground" "-no-remote" "-profile" "/var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileinKHjv"
+1641777298612	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qp/1yxjd8ds0dl181sb3tjn3mnc0000gn/T/rust_mozprofileinKHjv/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-DevTools listening on ws://localhost:59889/devtools/browser/2e99d307-e5bb-4439-824d-43531f4026d6
-1641767214018	Marionette	INFO	Listening on port 52626
-1641767214102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jan 09, 2022 5:26:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+DevTools listening on ws://localhost:55125/devtools/browser/a3713214-7030-4b33-b58a-12b7ceae5c68
+1641777300407	Marionette	INFO	Listening on port 65182
+1641777300445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 09, 2022 8:15:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript warning: https://pagead2.googlesyndication.com/bg/5j4VCALLZSHxCC9Q4npotRbCr-J4MtXOxr4dICczkIM.js line 1 > eval line 539 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/5j4VCALLZSHxCC9Q4npotRbCr-J4MtXOxr4dICczkIM.js line 1 > eval line 7376 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/94IealOMwR7kxf6jS-jGG0uIjJYzj28NIr5mtVGcdhU.js line 1 > eval line 209 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
 JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
 JavaScript warning: https://www.realtor.com/assets/prod/91a475a/_next/static/chunks/commons.9c00600bc8620bdbc3dc.js, line 1: unreachable code after return statement
-1641767221892	Marionette	INFO	Stopped listening on port 52626
+1641777316766	Marionette	INFO	Stopped listening on port 65182
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 ]]></system-err>
   </testcase>
 </testsuite>
