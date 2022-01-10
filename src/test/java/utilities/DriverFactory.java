@@ -45,8 +45,11 @@ public class DriverFactory {
             return new RemoteWebDriver(gridUrl, edgeOptions);
         }else{
 
-        WebDriverManager.firefoxdriver().setup();
-        return new FirefoxDriver();}
+//        WebDriverManager.firefoxdriver().setup();
+//        return new FirefoxDriver();}
+
+        WebDriverManager.chromedriver().setup();
+        return new ChromeDriver();}
     });
     public WebDriver getDriver(){
         return driver.get();
