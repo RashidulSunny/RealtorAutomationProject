@@ -1,8 +1,13 @@
 Feature: Rental Functionality
 
 
-  Scenario: Search all rental home in Queens, NY
-    Given user is in the realtor home page for searching home for rent
-    And user navigate to rent page
-    When user type place "Queens,NY" inside search box and click search button
-    Then user can see all home for rent in Queens, NY
+  Scenario Outline: Search for a home to rent
+    Given the user is on the realtor home page
+    And user navigates to the rent page
+    When the user clicks on the search button upon typing the address "<Address>"
+    Then the user can see all the available homes to rent
+  Examples:
+    | Address   |
+    | Queens NY |
+
+

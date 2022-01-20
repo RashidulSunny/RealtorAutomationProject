@@ -13,7 +13,7 @@ public class SortingSteps {
     WebDriver driver = Hooks.driver;
 
 
-    @Given("^user is in home page for searching house$")
+    @Given("^user is in home page for sorting house$")
     public void navigateToHomePageForSearch() {
         new Home(driver)
                 .navigateToURLHomePage();
@@ -35,12 +35,7 @@ public class SortingSteps {
 
     }
 
-    @Then("^user can see all newest listings home$")
-    public void validateFamilyHome() {
-        new Search(driver)
-                .validateFamilyHomePage();
 
-    }
     @Then("^user can see home with 3 bedroom$")
     public void validateThreeBedFamilyHome() {
         new Search(driver)

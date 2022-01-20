@@ -1,19 +1,20 @@
 Feature: Test login functionalities
 
   Background:
-    Given user is on the login page and click on Login Link
+    Given user is on the login page
+    And the user clicks on the login link
 
   @positive_test
   Scenario: Check login is successful with valid credentials
-    When user enters emailAddress "sunny09203019@gmail.com" and click on continue button
-    And user enters password "Test123@123" and click on login button
-    Then user is navigated to home page
+    When the user clicks on the continue button upon entering the email "sunny09203019@gmail.com"
+    And the user clicks on the login button upon entering the password "Test123@123"
+    Then the user is successfully logged in
 
   @positive_test @dataDriven_test
   Scenario Outline: Check login is successful with valid credentials
-    When user enters emailAddress "<emailAddress>" and click on continue button
-    And user enters password "<password>" and click on login button
-    Then user is navigated to home page
+    When the user clicks on the continue button upon entering the email "<emailAddress>"
+    And the user clicks on the login button upon entering the password "<password>"
+    Then the user is successfully logged in
 
     Examples:
       | emailAddress            | password    |
@@ -22,6 +23,6 @@ Feature: Test login functionalities
 
   @negative_test
   Scenario: Check login is unsuccessful with invalid password
-    When user enters emailAddress "sunny09203019@gmail.com" and click on continue button
-    And user enters password "test123" and click on login button
-    Then user is failed to login
+    When the user clicks on the continue button upon entering the email "sunny09203019@gmail.com"
+    And the user clicks on the login button upon entering the password "test123"
+    Then Then the user is failed to log in due to the error "Email and/or Password do not match"

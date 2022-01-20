@@ -11,7 +11,7 @@ public class Search extends NavigationBar{
     public static final By SearchBoxField = By.xpath("//input[@id='searchbox-input']");
     public static final By SearchIconTab = By.xpath("//button[contains(@aria-label, 'Search')]");
     public static final By HouseLogo = By.xpath("//h1[contains(text(),'11365, NY Real Estate & Homes for Sale')]");
-    public static final By ThreeBedTab = By.xpath("//*[@id=\"filter-btn-2066482\"]");
+    public static final By ThreeBedTab = By.xpath("//button[contains(@aria-label, 'Beds filter')]");
     public static final By ThreeIcon = By.xpath("//label[contains(@aria-label, 'Select 3+ Baths')]");
     public static final By ThreeBedLogo = By.xpath("//*[@id=\"srp-header\"]/div[1]/h1");
     private static final Logger LOGGER = LogManager.getLogger(Search.class);

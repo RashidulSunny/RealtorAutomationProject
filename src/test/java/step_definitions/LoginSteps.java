@@ -12,31 +12,38 @@ public class LoginSteps {
 
     WebDriver driver = Hooks.driver;
 
-    @Given("^user is on the login page and click on Login Link$")
-    public void userIsOnTheLoginPageAndClickOnLoginLink() {
-        new Home(driver).navigateToURLHomePage()
+    @Given("^user is on the login page$")
+    public void userIsOnTheLoginPage() {
+        new Home(driver)
+                        .navigateToURLHomePage();
+
+    }
+    @And("^the user clicks on the login link$")
+    public void userClickOnLoginLink(){
+        new Home(driver)
                         .clickLoginLink();
+
     }
 
-    @When("^user enters emailAddress \"(.+?)\" and click on continue button$")
+    @When("^the user clicks on the continue button upon entering the email \"(.+?)\"$")
     public void userEntersEmailAddressAndClickOnContinueButton(String emailAddress) {
         new Home(driver).typeEmailAddress(emailAddress)
                         .clickContinueButton();
     }
 
-    @And("^user enters password \"(.+?)\" and click on login button$")
+    @And("^the user clicks on the login button upon entering the password \"(.+?)\"$")
     public void userEntersPasswordAndClickOnLoginButton(String password) {
         new Home(driver).typePassword(password)
                         .clickLoginButton();
     }
 
-    @Then("^user is navigated to home page$")
+    @Then("^the user is successfully logged in$")
     public void userIsNavigatedToHomePage() {
         new Home(driver).validateHomePage();
     }
 
-    @Then("^user is failed to login$")
-    public void validateUnsuccessfulLogin() {
-        new Home(driver).validateUnsuccessfulByInvalidCredential();
+    @Then("^Then the user is failed to log in due to the error \"(.+?)\"$")
+    public void validateUnsuccessfulLogin(String massage) {
+        new Home(driver).validateUnsuccessfulByInvalidCredential(massage);
     }
 }

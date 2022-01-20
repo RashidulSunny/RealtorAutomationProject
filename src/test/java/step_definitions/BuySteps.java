@@ -13,7 +13,7 @@ public class BuySteps {
 
     WebDriver driver = Hooks.driver;
 
-    @Given("^user is in the realtor home page for searching home for buy$")
+    @Given("^the user is on the realtor home page for searching home for buy$")
     public void navigateToHomePageForBuy() {
 
         new Home(driver)
@@ -29,18 +29,20 @@ public class BuySteps {
 
     }
 
-    @When("^user type address \"(.+?)\" inside search box and click search icon$")
-    public void typeSearchBoxAndClickSearchTab(String address){
+    @When("^the user clicks on the search icon upon typing the address \"(.+?)\"$")
+    public void typeSearchBoxAndClickSearchTab(String Address){
         new Buy(driver)
-                .typeAddress(address)
+                .typeAddress(Address)
                 .clickSearchTabIcon();
     }
 
 
-    @Then("^user can see all  home for buy in Hicksville, NY$")
+    @Then("^the user can see all the available homes$")
     public void userIsNavigatedToNewConstructionBuyHomePage() {
         new Buy(driver)
-                .validateHicksvilleHomePage();
+                .validateHomePage();
+
+
     }
 }
 

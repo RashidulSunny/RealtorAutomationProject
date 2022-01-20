@@ -7,12 +7,13 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import page_objects.Home;
 import page_objects.Rent;
+import page_objects.Search;
 
 public class RentSteps {
 
     WebDriver driver = Hooks.driver;
 
-    @Given("^user is in the realtor home page for searching home for rent$")
+    @Given("^the user is on the realtor home page$")
     public void navigateToHomePageForRent() {
 
         new Home(driver)
@@ -20,7 +21,7 @@ public class RentSteps {
 
     }
 
-    @And("^user navigate to rent page$")
+    @And("^user navigates to the rent page$")
     public void navigateToRentPage(){
         new Home(driver)
                 .mouseHoverToRent()
@@ -28,16 +29,22 @@ public class RentSteps {
 
     }
 
-    @When("^user type place \"(.+?)\" inside search box and click search button$")
+    @When("^the user clicks on the search button upon typing the address \"(.+?)\"$")
     public void typeOnSearchBoxAndClickSearchIcon(String place){
         new Rent(driver)
                 .typePlace(place)
                 .clickSearchTab();
     }
 
-    @Then("^user can see all home for rent in Queens, NY$")
+
+
+    @Then("^the user can see all the available homes to rent$")
     public void userIsNavigatedToRentPage() {
         new Rent(driver)
                 .validateRentHomePage();
+
     }
+
+
+
 }

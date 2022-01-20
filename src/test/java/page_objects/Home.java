@@ -67,7 +67,7 @@ public class Home extends NavigationBar{
         LOGGER.debug("User is navigated to home page");
         return this;
     }
-    public Home validateUnsuccessfulByInvalidCredential(){
+    public Home validateUnsuccessfulByInvalidCredential(String massage){
         AssertThat.elementassertions(driver, InvalidPassword).elementDisplayed();
         LOGGER.debug("User is still on the login page");
         return this;

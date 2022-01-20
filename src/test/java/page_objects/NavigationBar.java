@@ -20,6 +20,7 @@ public class NavigationBar {
     public final By findRealtorLink = By.xpath("//a[contains(@aria-label, 'Navigation Find Realtors® link' )]");
     public final By searchForRealEstateAgentLink = By.linkText("Search For Real Estate Agent");
 
+
     private static final Logger LOGGER = LogManager.getLogger(NavigationBar.class);
 
 
@@ -102,4 +103,6 @@ public class NavigationBar {
         return new FindRealtor(driver);
 
     }
+
+
 }
