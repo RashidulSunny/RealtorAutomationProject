@@ -9,3 +9,4 @@ Feature: Buy Functionality
   Examples:
     | Address        |
     | Hicksville, NY |
+    | Merrick, NY    |

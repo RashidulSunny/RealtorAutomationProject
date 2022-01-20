@@ -11,7 +11,8 @@ public class Buy extends NavigationBar{
 
     public static final By SearchFieldForBuy = By.xpath("//input[@id='searchbox-input']");
     public static final By SearchTabIcon = By.xpath("//button[contains(@aria-label, 'Search')]");
-    public static final By HicksvilleNyHomeLogo = By.xpath("//h1[contains(text(),'Hicksville, NY Real Estate & Homes for Sale')]");
+    //public static final By HicksvilleNyHomeLogo = By.xpath("//h1[contains(text(),'Hicksville, NY Real Estate & Homes for Sale')]");
+    public static final By LogoForValidation = By.xpath("//a/img[@data-testid= 'global-nav-custom']");
     private static final Logger LOGGER = LogManager.getLogger(Buy.class);
 
     public WebDriver driver;
@@ -34,8 +35,8 @@ public class Buy extends NavigationBar{
     }
 
     public Buy validateHomePage(){
-        AssertThat.elementassertions(driver, HicksvilleNyHomeLogo).elementDisplayed();
-        LOGGER.debug("User can see all new construction home for buy in hicksville, ny");
+        AssertThat.elementassertions(driver, LogoForValidation).elementDisplayed();
+        LOGGER.debug("User can see all new construction home for buy");
 
         return this;
     }
